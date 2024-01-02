@@ -1,5 +1,5 @@
 {
-  "name": "quotesApi",
+  "name": "quotes-api",
   "version": "1.2.0",
   "description": " A basic starter for an express.js API with Typescript",
   "main": "src/index.ts",
@@ -20,12 +20,12 @@
   },
   "license": "MIT",
   "dependencies": {
+    "ts-node": "^10.9.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
-    "morgan": "^1.10.0",
-    "ts-node": "^10.9.2"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
